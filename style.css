@@ -371,6 +371,7 @@ header li {
     height: var(--card-height);
     pointer-events: all;
     z-index: 100;
+    overflow: hidden;
 }
 
 .infoList .info__wrapper {
@@ -578,4 +579,5 @@ footer {
         top: -200px;
 
     }
+
 }
