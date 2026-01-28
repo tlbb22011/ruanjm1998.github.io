@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMEOFHTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>wowaka（现实逃避P）</h1>
+        <button class="menu" >&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/@hitorie_JP/">YOUTUBE</a></li>
+                <li><a href="https://x.com/wowaka">X</a></li>
+                <li><a href="https://www.nicovideo.jp/user/11912389/video?ref=pc_userpage_menu">ニコニコ動画</a></li>
+                <li><a href="https://www.instagram.com/wowaka_hitorie">Instagram</a></li>
+                <!-- <li>生年月日: 1987年3月4日</li> -->
+                <!-- <li>代表作: 「ローリンガール」、「ワールズエンド・ダンスホール」、「アンノウン・マザーグース」など</li> -->
+                <!-- <li>所属バンド: hitorie</li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tag1">
+            <h2>ボカロの天才「現実逃避P」</h2>
+            <p>裏声で歌へ　ヒトリエ </p>
+            <p><a href="https://www.hitorie.jp/">公式サイトはこちら</a></p>
+        </section>
+
+        <section class="tag2">
+            <blockquote cite="https://ja.wikipedia.org/wiki/Wowaka">
+                <p>wowaka（ヲワカ、1987年〈昭和62年〉11月4日 - 2019年〈平成31年〉4月5日）は、
+                    <br>日本の作詞家、作曲家、編曲家、ボカロP。
+                    <br>ネット発アーティストの先駆けだった。
+                </p>
+            </blockquote>
+        </section>
+
+        <section class="tag3">
+            <img src="img/wowaka/wowaka10.jpg" alt="wowaka03">
+
+            <div class="caption">
+                <h2>音楽性</h2>
+                <blockquote cite="https://ja.wikipedia.org/wiki/Wowaka">
+                    <p>『アンハッピーリフレイン』や『ローリンガール』に代表される、疾走感と十代の女の子の心の揺れ動きを描く世界観が大きな特徴である。
+                        </br>また、本人曰く、「テンポが早い曲を好み、言葉をたたみかけるような曲調が特徴」「曲を作るにあたって、いつも主人公の女の子を用意している」と語っていた。
+                        <!-- </br>ボカロPとしての活動当初は、「VOCALOIDでしか出来ないことをやりたいという意識で曲を作っていたが、後にVOCALOIDの良さを生かすことを意識するようになった」と言う。 --></p>
+                </blockquote>
+            </div>
+        </section>
+
+        <div class="app">
+            <h2 class="album">wowakaの代表作品</h2>
+            <div class="cardList">
+                <button class="cardList__btn btn btn--left">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-left"></use>
+                        </svg>
+                    </div>
+                </button>
+
+                <div class="cards__wrapper">
+                    <div class="card current--card">
+                        <div class="card__image">
+                            <img src="img/album/unhappyrefrian.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card next--card">
+                        <div class="card__image">
+                            <img src="img/album/IKI.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="img/album/aiSOlate.jpg" alt="" />
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+
+            <div class="infoList">
+                <div class="info__wrapper">
+                    <div class="info current--info">
+                        <h3 class="text name">アンハッピーリフレイン</h3>
+                        <h4 class="text location">2011年5月18日</h4>
+                    </div>
+
+                    <div class="info next--info">
+                        <h3 class="text name">IKI</h3>
+                        <h4 class="text location">2016年12月7日</h4>
+                    </div>
+
+                    <div class="info previous--info">
+                        <h3 class="text name">ai/SOlate</h3>
+                        <h4 class="text location">2017年12月6日</h4>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="img/album/unhappyrefrian.jpg" alt="" />
+                </div>
+                <div class="app__bg__image next--image">
+                    <img src="img/album/IKI.jpg" alt="" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="img/album/aiSOlate.jpg" alt="" />
+                </div>
+
+            </div>
+        </div>
+
+
+        <svg class="icons" style="display: none;">
+            <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <polyline points='328 112 184 256 328 400'
+                    style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+            <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <polyline points='184 112 328 256 184 400'
+                    style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+        </svg>
+
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TESTFOOTEROFHTML. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
