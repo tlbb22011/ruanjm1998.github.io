@@ -369,7 +369,7 @@ header li {
     transform: translate(-50%, -50%);
     width: calc(3 * var(--card-width));
     height: var(--card-height);
-    pointer-events: all;
+    pointer-events: none;
     z-index: 100;
     overflow: hidden;
 }
@@ -579,5 +579,4 @@ footer {
         top: -200px;
 
     }
-
 }
